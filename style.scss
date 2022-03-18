@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin default-btn {
+    color: white;
+    background-color: rgb(15, 114, 144);
+    padding: 0.5rem 2rem;
+    font-size: x-large;
+    border: 0;
+    border-radius: 0.1rem;
+}
+
+.main {
+    margin: 1rem;
+
+    h1 {
+        font-family: 'Red Hat Text', sans-serif;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        font-family: 'Red Hat Text', sans-serif;
+        font-size: larger;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .open-btn {
+        @include default-btn;
+    }
+
+    .modal {
+        max-width: 40vw;
+        padding: 0.5rem;
+        margin: auto;
+        button {
+            @include default-btn;
+            width: 100%;
+        }
+    }
+}

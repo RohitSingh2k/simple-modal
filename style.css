@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  margin: 1rem;
+}
+
+.main h1 {
+  font-family: 'Red Hat Text', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.main p {
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: larger;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.main .open-btn {
+  color: white;
+  background-color: #0f7290;
+  padding: 0.5rem 2rem;
+  font-size: x-large;
+  border: 0;
+  border-radius: 0.1rem;
+}
+
+.main .modal {
+  max-width: 40vw;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.main .modal button {
+  color: white;
+  background-color: #0f7290;
+  padding: 0.5rem 2rem;
+  font-size: x-large;
+  border: 0;
+  border-radius: 0.1rem;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
