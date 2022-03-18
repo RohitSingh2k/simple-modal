@@ -38,8 +38,8 @@
   padding: 0.5rem;
   margin: auto;
   border: 0;
-  -webkit-box-shadow: 0 0 1rem;
-          box-shadow: 0 0 1rem;
+  -webkit-box-shadow: 0 0 1rem rgba(41, 40, 40, 0.3);
+          box-shadow: 0 0 1rem rgba(41, 40, 40, 0.3);
 }
 
 .main .modal button {
