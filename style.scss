@@ -14,6 +14,7 @@
     font-size: x-large;
     border: 0;
     border-radius: 0.1rem;
+    cursor: pointer;
 }
 
 .main {
@@ -39,9 +40,16 @@
         max-width: 40vw;
         padding: 0.5rem;
         margin: auto;
+        border: 0;
+        box-shadow: 0 0 1rem rgb(0 0 0 / .3);
         button {
             @include default-btn;
             width: 100%;
+        }
+
+        &::backdrop {
+            background: linear-gradient(45deg, red,blue);
+            opacity: .4;
         }
     }
 }

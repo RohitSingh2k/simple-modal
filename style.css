@@ -30,12 +30,16 @@
   font-size: x-large;
   border: 0;
   border-radius: 0.1rem;
+  cursor: pointer;
 }
 
 .main .modal {
   max-width: 40vw;
   padding: 0.5rem;
   margin: auto;
+  border: 0;
+  -webkit-box-shadow: 0 0 1rem;
+          box-shadow: 0 0 1rem;
 }
 
 .main .modal button {
@@ -45,6 +49,17 @@
   font-size: x-large;
   border: 0;
   border-radius: 0.1rem;
+  cursor: pointer;
   width: 100%;
+}
+
+.main .modal::-webkit-backdrop {
+  background: linear-gradient(45deg, red, blue);
+  opacity: .4;
+}
+
+.main .modal::backdrop {
+  background: linear-gradient(45deg, red, blue);
+  opacity: .4;
 }
 /*# sourceMappingURL=style.css.map */
